@@ -1,4 +1,302 @@
-def TheEnd2()"
+#------THIS IS THE DIVIDER-------CLOAKED MAN QUEST LINE IS BELOW----#
+
+def cloaked_kill():
+	print "in progress"
+	
+def cloaked_steal():
+	print "in progress"
+
+def cloaked_lie():
+	print "----------"
+	print "Eidolon - There is a guild in town, called the LEAGUE"
+	print "of Extraordinary Knights. They host some of the bravest"
+	print "and greatest fighters in the land. They are good people..."
+	print "Eidolon - ...for the most part."
+	print "Eidolon - And they must all die."
+	print "Eidolon - There is no assassin alive that could kill all."
+	print "Eidolon - Or at least not fast enough."
+	print "Eidolon - And so we must resort to convincing the town"
+	print "militia that the LEAGUE needs to be put down."
+	print "Eidolon - Do you understand?"
+	understand = raw_input("> ")
+	
+	if understand == "YES":
+		print "----------"
+		print "Eidolon - Good. Then listen to what I need you to do."
+
+	elif understand == "NO":
+		print "----------"
+		print "Eidolon - I can't explain it all right now, but"
+		print "the LEAGUE protects the innocent, and we need some"
+		print "of the innocent to die so that many of the innocent"
+		print "can live. You will understand more later, but right"
+		print "now I need you to just do what I say."
+	
+	print "----------"
+	print "Eidolon - The LORD of this town is a level-headed man who"
+	print "does not act with haste nor without being informed."
+	print "Eidolon - His STEWARD however, has his ear, and is a very"
+	print "paranoid and suspicious person."
+	print "Eidolon - This means they will be suspicious of you, but"
+	print "they will also be prone to believing lies about the League."
+	print "---"
+	print "Eidolon - I will give you a DAGGER, coated in TRELECATE poison."
+	print "Eidolon - The smallest cut with this dagger will instantly kill"
+	print "Eidolon - I know you did not choose to kill, but it may be"
+	print "necessary. Our quest is of the utmost importance."
+	print "---"
+	print "Eidolon - I will give you this blank PARCHMENT, it is signed"
+	print "by the head of the LEAGUE of Extraordinary Knights, you may"
+	print "write whatever you feel will be the most convincing on it."
+	print "---"
+	print "Eidolon - And finally I will give you this red HANDKERCHIEF."
+	print "Eidolon - Keep this in your pocket and do not take it out"
+	print "unless you must. I will have someone following you to make sure"
+	print "that you carry out your task. If you require someone killed, and"
+	print "for whatever reason are unable to do so yourself, hand them this"
+	print "handkerchief and your TRACKER will kill them."
+	print "---"
+	print "Eidolon - Do you have any questions? We only have time for one."
+	question = raw_input("LORD, STEWARD, LEAGUE, TRELECATE, TRACKER, or NO > ")
+
+	if question == "LORD":
+		print "----------"
+		print "Eidolon - Ah yes, Lord D'SParis. A good natured man who has"
+		print "done much for the town to keep it thriving. He has a very"
+		print "attractive wife who has caught the eye of many. Including"
+		print "Ser GASPARD of the LEAGUE. One of the high ranking officers."
+		print "It is known to many that GASPARD has approached her but"
+		print "She turned him down, stating that as long as her husband"
+		print "lived, she would be faithful to him."
+		print "---"
+		print "Eidolon - I hope this information helps you, but you really"
+		print "must be going now."
+		lie_quest()
+
+	elif question == "STEWARD":
+		print "----------"
+		print "Eidolon - Ah, Gregory. Truly a paranoid man. However I"
+		print "suspect he is so paranoid because he has, on numerous"
+		print "occassions, exposed ASSASSINS who were plotting to kill"
+		print "the LORD. Many of these plots were well constructed and"
+		print "nearly succeeded. Paranoid, suspicious, and effective."
+		print "Eidolon - Gregory will be your greatest weapon"
+		print "and your most dangerous obstacle."
+		print "---"
+		print "Eidolon - I hope this information helps you, but you really"
+		print "must be going now"
+		lie_quest()
+
+	elif question == "LEAGUE":
+		print "----------"
+		print "Eidolon - Ah yes, the LEAGUE. They recruit knights and"
+		print "brave fighters from everywhere. They are the primary reason"
+		print "that this town has stayed as safe as it is. I should"
+		print "mention that the LEAGUE only recruits great fighters. They"
+		print "do not need to be honourable people, or even good people."
+		print "Eidolon - In fact, one time a member of the LEAGUE attempted"
+		print "to assassinate the LORD. They thought it was ridiculous to"
+		print "be governed by political power when the town could be"
+		print "governed by military power. The assassination plot failed,"
+		print "however the perpetrator, KORAX, is still in the LEAGUE."
+		print "KORAX is a great fighter indeed, specialising in combat"
+		print "with small arms such as shortswords, DAGGERS, and maces."
+		print "---"
+		print "Eidolon - I hope this information helps you, but you really"
+		print "must be going now."
+		lie_quest()
+
+	elif question == "TRELECATE":
+		print "----------"
+		print "Eidolon - Ah the poison. Yes this is a rare poison indeed."
+		print "There are a very few merchants in shadowed alleys or deep"
+		print "in the sewers that can sell small doses of this poison."
+		print "However they are not sold for money, they are sold for"
+		print "'Favours'."
+		print "There was an old family of assassins a few hundred years"
+		print "ago that developed the recipe for this poison. Those who"
+		print "know it, keep it a secret, for the knowledge itself" 
+		print "can be dangerous."
+		print "It's so dangerous, that if anyone were to learn that the"
+		print "head of the LEAGUE, Ser BOIDHEACH," 
+		print "knew how to make TRELECATE,"
+		print "it would surely endanger his life. The fact that he grows"
+		print "several of the key herbs for the poison in his personal"
+		print "dormitory would put to rest any questions"
+		print "of the truth of the matter."
+		print "---"
+		print "Eidolon - I hope this information helps you, but you really"
+		print "must be going now"
+		lie_quest()
+
+	elif question == "TRACKER":
+		print "---------"
+		print "Eidolon - Ah how very interesting that you would ask"
+		print "about the person I have tracking you. When all other"
+		print "information would seem more pertinent, you would ask"
+		print "for details on your TRACKER. Very well. Your tracker"
+		print "is a woman called Scarlet. She is one of the greatest"
+		print "ASSASSINS of our time. Know that you will not evade her"
+		print "and you could not possibly defeat her in combat. Her"
+		print "prowess with a DAGGER is second to none."
+		print "In fact, the LEAGUE recently recruited her. They offered"
+		print "her a quite a handsome contract, ratified at City Hall by"
+		print "the LORD himself. However I suspect if you use all the"
+		print "information at your disposal, I should"
+		print "never see her again. Valuable information indeed."
+		print "---"
+		print "Eidolon - I certainly hope you use this information well."
+		print "Eidolon - But you really must be going now."
+		lie_quest()
+
+	elif question == "NO":
+		print "----------"
+		print "Eidolon - Information is your greatest asset when" 
+		print "constructing lies. Going in uninformed is dangerous"
+		lie_quest()
+
+	else:
+		print "----------"
+		print "Eidolon - The hour is later than I thought."
+		print "Eidolon - You really must go now."
+		lie_quest()
+
+def cloaked_quest():
+	print "----------"
+	print "Eidolon - I have acquired the means to save this town."
+	print "Eidolon - However most would misunderstand my goals as"
+	print "malicious or evil. This is not true."
+	print "Eidolon - I will not tell you more until you prove to me"
+	print "that you are willing to go to great lengths to do the right"
+	print "thing, regardless of law or personal philosophy."
+	print "---"
+	print "Eidolon - So tell me, would you KILL, STEAL, or LIE for"
+	print "the greater good?"
+	print "KILL, STEAL, or LIE?"
+	choice = raw_input("> ")
+
+	if choice == "KILL":
+		print "----------"
+		print "Eidolon - The ultimate sacrifice. This is the truest"
+		print "test of faith in the greater good."
+		print "Eidolon - There is someone you must kill. They may"
+		print "seem innocent, but you must trust me that they would"
+		print "bring about the destruction of this town and possibly"
+		print "even worse."
+		cloaked_kill()
+
+	elif choice == "STEAL":
+		print "----------"
+		print "Eidolon - Not as obviously destructive as killing,"
+		print "but a certain object missing, or found somewhere it"
+		print "shouldn't be can be just as ruinous."
+		print "Eidolon - There is something I would have you steal,"
+		print "without which we can save no one."
+		print "Eidolon - You should know that this object is valuable,"
+		print "dangerous, and well guarded."
+		cloaked_steal()
+
+	elif choice == "LIE":
+		print "----------"
+		print "Eidolon - Ah, a lie. Seemingly the most harmless of the"
+		print "three choices, but it is by far the most powerful."
+		print "Eidolon - History is built on lies, we form our lives"
+		print "around lies, kings are made with lies, and broken with"
+		print "them too. I would have you sing a song for me..."
+		cloaked_lie()
+
+	else:
+		print "Eidolon - Useless. But now you know too much."
+		print "Eidolon pulls a dagger from beneath his cloak"
+		print "and cuts your throat."
+		start()
+
+
+def cloaked_man():
+	print "----------"
+	print "You approach the cloaked man in the corner. He never looks"
+	print "away from the window, but you can tell he knows you're there"
+	print "Cloaked Man - Tell me, stranger, how much do you know about"
+	print "this town?"
+	response = raw_input("> ")
+
+	if "troll" or "Troll" or "TROLL" in response:
+		print "----------"
+		print "Cloaked Man - Wait, what did you just say about TROLLS?"
+		print "Cloaked Man - No, nevermind, anyways"
+
+	elif "trench" or "Trench" or "TRENCH" in response:
+		print "----------"
+		print "Cloaked Man - Wait, where did you hear that name?"
+		print "Cloaked Man - Atually it doesn't matter"
+
+	elif "children" or "Children" or "CHILDREN" in response:
+		print "----------"
+		print "Cloaked Man - Yes...there is something wrong with"
+		print "those CHILDREN indeed...regardless."
+
+	elif "Trundy" or "TRUNDY" or "KNIGHT" in response:
+		print "----------"
+		print "Cloaked Man - Trundy the bloody drunken oaf"
+		print "of a knight? I strongly suspect she has never"
+		print "slain even a single troll."
+
+	else:
+		print "----------"
+		print "Cloaked Man - All you know about this town is '%s'?" % response
+		print "Cloaked Man - There is indeed much more than that"
+		print "to this town, horrifying truths that would send"
+		print "brave men screaming to the grave."
+
+	print "Cloaked Man - For now you can call me Eidolon. It is not"
+	print "my real name, nor is it the name everyone calls me."
+	print "Eidolon - But it will suffice for now"
+	print "Eidolon - Tell me, stranger, would you do anything to"
+	print "protect the ones you love?"
+	print "YES or NO?"
+	protection = raw_input("> ")
+
+	if protection == "YES":
+		print "----------"
+		print "And tell me stranger, would you sacrifice innocent"
+		print "lives to ensure your loved ones stayed safe?"
+		print "YES or NO?"
+		protectionY = raw_input("> ")
+		
+		if protectionY == "YES":
+			print "----------"
+			print "Eidolon - Yes, then there is something that"
+			print "you should know, and you will want to help me"
+			print "Eidolon - For I mean to save the ones I love,"
+			print "and that will mean saving the ones you love,"
+			print "and saving yourself as well."
+			cloaked_quest()
+
+		elif protectionY == "NO":
+			print "----------"
+			print "Eidolon - Then how can you say you love"
+			print "them truly?"
+			start()
+	
+		else:
+			print "----------"
+			print "Eidolon - I don't even understand you."
+			start()
+	
+	elif protection == "NO":
+		print "----------"
+		print "Eidolon - Then truly you do not love them."
+		start()
+
+	else:
+		print "----------"
+		print "Eidolon - We have nothing more to discuss"
+		start()
+
+
+#-------THIS IS THE DIVIDER-------KNIGHT QUEST LINE IS BELOW-------#
+
+def TheEnd2():
 	print "----------"
 	print "Congratulations! You killed Trench! I suspect that there is"
 	print "Soemthing more going on that you have yet to discover..."
