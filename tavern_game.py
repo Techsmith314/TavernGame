@@ -1,3 +1,24 @@
+def TheEnd2()"
+	print "----------"
+	print "Congratulations! You killed Trench! I suspect that there is"
+	print "Soemthing more going on that you have yet to discover..."
+	print "Try playing through again, or try another quest,"
+	print "Or try dying in a spectacular ridiculous way!"
+	print "Will you play AGAIN or EXIT?"
+	choice = raw_input("> ")
+	
+	if choice == "AGAIN":
+		start()
+
+	elif choice == "EXIT":
+		exit(0)
+
+	else:
+		print "The shock of realizing you didn't solve the entire"
+		print "mystery is more than your heart can handle. You have"
+		print "a heart attack and die."
+		start()
+
 def TheEnd():
 	print "----------"
 	print "Congratultions! You made it all the way to the end without dying"
@@ -146,6 +167,7 @@ def Trench_Defeated():
 	print "You return to town, turn in Trench's head to the League, get your five thousand"
 	print "gold pieces, and live happily ever after."
 	print "I'm sure smashing that bone whistle was enough...right?!"
+	TheEnd2()
 
 def WaUn1():
 	print "----------"
