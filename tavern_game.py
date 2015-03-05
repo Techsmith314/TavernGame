@@ -6,15 +6,151 @@ def cloaked_kill():
 def cloaked_steal():
 	print "in progress"
 
+def front_guards():
+	response = raw_input("> ")
+
+	if response == "ASSASSIN"
+		print "Guard2 - Don't worry sir, we're well prepared"
+		print "for anything Gas-"
+		print "Guard1 - Nothing you need to worry about citizen."
+		front_guards()
+
+	elif response == "PROTECTION"
+		print "Guard2 - Oh hey, you're the PROTECTION!"
+		print "Guard1 - Or so you say you are. How can you"
+		print "prove that you are the PROTECTION? You could be"
+		print "the very ASSASSIN we need PROTECTION from!"
+		proof = raw_input("> ")
+		
+		if proof == "DAGGER":
+
+		elif proof == "GASPARD":
+	
+		elif proof == "KORAX":
+
+		elif proof == "BOIDHEACH":
+
+		elif proof == "SCARLET":
+
+		elif proof == "PARCHMENT":
+
+		elif proof == "GREGORY":
+
+		elif proof == "LEAGUE":
+		
+		elif proof == "HANDKERCHIEF":
+
+		elif proof == "TRELECATE":
+
+		else:
+
+	elif response == "GASPARD":
+
+	elif response == "KORAX":
+
+	elif response == "SCARLET":
+
+	elif response == "BOIDHEACH":
+	
+	elif response == "TRELECATE":
+
+	else:
+
+def lie_front():
+	print "----------"
+	print "You walk up to the guards at the front door"
+	print "As soon as they notice you, they straighten up and"
+	print "become completely silent."
+	print "As you approach, one of the guards stops you."
+	print "Guard1 - Hello there stranger, a bit late for a"
+	print "stroll wouldn't you say? Have you got business with"
+	print "the LORD?"
+	front_guards()
+
+def lie_quest():
+	print "----------"
+	print "Eidolon - It is imperative that the LEAGUE does not"
+	print "interfere with our plans. You must succeed."
+	print "Eidolon - If you manage to convince the LORD to deal"
+	print "with the league, it will prove your reliability as"
+	print "well as your resourcefullness. Both of which will be"
+	print "required as we continue."
+	print "---"
+	print "Eidolon - There are two ways into the LORD's manor,"
+	print "there is a WINDOW in the southwest corner that will"
+	print "left unlocked. This will give you easy access to the"
+	print "house, but if you are seen inside you will be arrested."
+	print "Eidolon - The other method of entry is through the FRONT"
+	print "doors. This will require you to LIE to the guards. It"
+	print "will be the more challenging route in, but you will be"
+	print "safer to wander the halls inside once you get in."
+	print "So stranger, how will you go, WINDOW or FRONT door?"
+	entry = raw_input("> ")
+	
+	if entry == "FRONT":
+		print "----------"
+		print "You LEAVE TAVERN and head SOUTH along the streets."
+		print "The LORDs manor is the largest residential building"
+		print "before the end of town. It is a large grey building"
+		print "built of the hewn planks of the Ash Pine this region"
+		print "is known for. There is a large wrought-iron fence"
+		print "surrounding the manor, with a gate guarded by two"
+		print "men in full armour. Inside the yard there are four"
+		print "more guards immediately infront of the doors to the"
+		print "estate itself."
+		print "---"
+		print "The sun has nearly set, dusk hangs in the air and long"
+		print "shadows are cast by the trees inside the yard."
+		print "You could hide behind a tree and LISTEN to the guards"
+		print "Or you can CONTINUE and walk directly to them."
+		choice = raw_input("> ")
+		
+		if choice == "CONTINUE":
+			lie_front()
+
+		elif choice == "LISTEN":
+			print "----------"
+			print "You find a shadow close enough to the guards"
+			print "that you can hear what they are saying."
+			print "Guard1 - But what I am saying is that if"
+			print "GREGORY wanted protection, why wouldn't he"
+			print "just hire more guards?! What the bloody hell"
+			print "good does it do us to hire an ASSASSIN?"
+			print "Guard2 - Well I figure he's trying to fight"
+			print "fire with fire. What better way to catch an"
+			print "ASSASSIN with another ASSASSIN? Not saying"
+			print "That I agree with this type of PROTECTION,"
+			print "but then again it's not my call to make."
+			lie_front()
+
+		else:
+			print "----------"
+			print "One of the guards spots you, a shifty shadowy"
+			print "figure obviously up to no good. You are"
+			print "arrested on the spot and sent to prison."
+			print "Later that night there is a great commotion"
+			print "outisde in the streets, then you smell smoke"
+			print "as the prison goes up in flames. You wonder"
+			print "'Was this the Eidolon's plan?"
+			start()
+
+	elif entry == "WINDOW":
+
+	else:
+		print "Eidolon - I assure you, you can only enter through"
+		print "the WINDOW or the FRONT door."
+		lie_quest()
+		
+
 def cloaked_lie():
 	print "----------"
 	print "Eidolon - There is a guild in town, called the LEAGUE"
 	print "of Extraordinary Knights. They host some of the bravest"
 	print "and greatest fighters in the land. They are good people..."
-	print "Eidolon - ...for the most part."
+	print "...for the most part."
 	print "Eidolon - And they must all die."
-	print "Eidolon - There is no assassin alive that could kill all."
-	print "Eidolon - Or at least not fast enough."
+	print "Eidolon - There is no assassin alive that could kill"
+	print "them all, or at least not fast enough."
 	print "Eidolon - And so we must resort to convincing the town"
 	print "militia that the LEAGUE needs to be put down."
 	print "Eidolon - Do you understand?"
@@ -135,7 +271,7 @@ def cloaked_lie():
 		print "about the person I have tracking you. When all other"
 		print "information would seem more pertinent, you would ask"
 		print "for details on your TRACKER. Very well. Your tracker"
-		print "is a woman called Scarlet. She is one of the greatest"
+		print "is a woman called SCARLET. She is one of the greatest"
 		print "ASSASSINS of our time. Know that you will not evade her"
 		print "and you could not possibly defeat her in combat. Her"
 		print "prowess with a DAGGER is second to none."
@@ -220,22 +356,22 @@ def cloaked_man():
 	print "this town?"
 	response = raw_input("> ")
 
-	if "troll" or "Troll" or "TROLL" in response:
+	if "TROLL" in response:
 		print "----------"
 		print "Cloaked Man - Wait, what did you just say about TROLLS?"
 		print "Cloaked Man - No, nevermind, anyways"
 
-	elif "trench" or "Trench" or "TRENCH" in response:
+	elif "TRENCH" in response:
 		print "----------"
 		print "Cloaked Man - Wait, where did you hear that name?"
 		print "Cloaked Man - Atually it doesn't matter"
 
-	elif "children" or "Children" or "CHILDREN" in response:
+	elif "CHILDREN" in response:
 		print "----------"
 		print "Cloaked Man - Yes...there is something wrong with"
 		print "those CHILDREN indeed...regardless."
 
-	elif "Trundy" or "TRUNDY" or "KNIGHT" in response:
+	elif "KNIGHT" in response:
 		print "----------"
 		print "Cloaked Man - Trundy the bloody drunken oaf"
 		print "of a knight? I strongly suspect she has never"
